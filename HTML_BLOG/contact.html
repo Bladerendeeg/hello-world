@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contact opnemen! | Bedrijfsnaam Snippet </title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Contact!</h1>
+        <h2>Neem hier contact met me op! </h2>
+    </header>
+    <main>
+        <hr>
+        <nav class="shops">
+            <ul>
+                <a href="./">
+                    <li>Home</li>
+                </a>
+                <a href="./about.html">
+                    <li>Over-mij</li>
+                </a>
+                <a href="./contact.html">
+                    <li>Contact</li>
+                </a>
+                <a href="./blog.html">
+                    <li>Blog</li>
+                </a>
+            </ul>
+        </nav>
+        </nav>
+        <form name="contact" method="POST" data-netlify="true">
+            <p>
+                <label>Naam:</label><br>
+                <input type="text" name="name" />
+            </p>
+            <p>
+                <label>Email:</label><br>
+                <input type="email" name="email" />
+            </p>
+            <p>
+                <label>Telefoonnummer:</label><br>
+                <input type="number" name="tel" />
+            </p>
+            <p>
+                <label>Leeftijd:</label><br>
+                <input type="number" name="leeftijd" />
+            </p>
+            <p>
+                <label>Geboortedatum:</label><br>
+                <input type="date" name="geboorte" />
+            </p>
+            <p>
+            <div>
+                <label>Geslacht:</label><br>
+                <input type="radio" id="man" name="gender" value="man">
+                <label for="man">Man</label>
+                <input type="radio" id="vrouw" name="gender" value="vrouw">
+                <label for="vrouw">Vrouw</label>
+                </p>
+            </div>
+            <p>
+                <label>Favoriete cuisine:</label><br>
+                <input type="checkbox" id="frans" name="frans" value="frans">
+                <label for="frans">Frans</label><br>
+                <input type="checkbox" id="italiaans" name="italiaans" value="italiaans">
+                <label for="italiaans">Italiaans</label><br>
+                <input type="checkbox" id="spaans" name="spaans" value="spaans">
+                <label for="spaans">Spaans</label><br>
+                <input type="checkbox" id="arabisch" name="arabisch" value="arabisch">
+                <label for="arabisch">Arabisch</label><br>
+            </p>
+            <p>
+                <label>Biografie:<br></label> <textarea name="message"></textarea>
+            </p>
+            <label>Upload je laatste recept:</label><br>
+            <input type="file" id="myFile" name="filename">
+            <p>
+            <p>
+                <label>Link naar je favoriete recept:</label><br>
+                <input type="text" name="receptlink" />
+            </p>
+            <button type="reset" value="Reset">Reset</button>
+            <button type="submit">Versturen</button>
+            </p>
+        </form>
+    </main>
+    <footer>dit is het footer gedeelte.</footer>
+
+
+    <p><a href="./about.html">Lees meer over jezelf.</a></p>
+</body>
+
+</html>
