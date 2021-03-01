@@ -1,0 +1,77 @@
+body {
+    background: #f4f4f4;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0 15px;
+}
+.over-mij {
+    display:block;
+    margin:auto;
+    background: #FF6600;
+    text-align: center;
+    padding: 20px 0;
+    color:white;
+}
+.over-mij a {
+    color:white;
+}
+.btn {
+    padding: 12px 24px;
+    background: #FF6600;
+    cursor: pointer;
+    border:2px solid #FF6600;
+    transition: 0.2s;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.btn:hover {
+    background: #ffffff00;
+    color:#FF6600;
+
+}
+img {
+    box-shadow: 0 3px 45px 0 rgba(0,0,0,0.5);
+    border-radius: 25px;
+    margin:25px 0;
+}
+nav li {
+    display: inline-block;
+    padding: 12px;
+    margin: 3px;
+    border-radius: 3px;
+    color: white;
+    width:300px;
+    text-align: center;
+}
+nav li a {
+    color:white;
+    text-decoration: none;
+}
+.shops li{
+    background: red;
+}
+.leukedingen li {
+    background: purple;
+}
+@media (max-width: 600px) {
+    body {
+
+    text-align: center;
+}
+h1 {
+    font-size: 30px;
+    line-height: 68px;
+}
+footer {
+    margin: 25px;
+    padding: 10px;
+    border-top: 1px solid #222;
+}
+}
+@media (min-width: 1024px) {
+    h1 {
+    font-size: 22px;
+}
+    h2 {
+    color: darkgreen!important;
+    }
+}
